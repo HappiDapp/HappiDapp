@@ -1,0 +1,25 @@
+Video Compression Script
+
+This script allows you to apply heavy compression to a video file, simulating the effect of a video that has undergone multiple rounds of sharing, resulting in very low quality.
+
+Usage:
+1. Place the video file you want to compress in the same folder as this script.
+2. Run the script using a Python interpreter (Python 3.x recommended).
+3. Follow the prompts to input the desired compression settings.
+4. The script will create a compressed video file with the specified settings.
+
+Compression Settings:
+- Video Bitrate: Enter a value for video bitrate (e.g., 8k, 4M). Lower values result in worse quality.
+- Frame Rate: Enter a value for frame rate (e.g., 5, 10). Lower values create choppier motion.
+- Audio Bitrate: Enter a value for audio bitrate (e.g., 2k, 128k). Lower values result in worse audio quality.
+- Audio Volume Boost: Enter a value for audio volume boost (dB, e.g., 10). Higher values make audio louder.
+
+Note:
+- The script uses FFmpeg for video and audio processing. Make sure FFmpeg is installed and accessible from the command line, if you don't you can use 'pip install ffmpeg' in a command prompt.
+- The compressed video file will have the format "compressed_[INPUT_FILENAME].ext". If the filename already exists, a numbering scheme will be applied (e.g., "compressed_[INPUT_FILENAME](1).ext").
+
+Disclaimer:
+- This script is intended for fun and experimentation. Extreme compression can lead to distorted and unrecognizable output.
+
+Support:
+For any issues or questions, feel free to contact @HappiDapp on Twitter, I always have my DMs open.
